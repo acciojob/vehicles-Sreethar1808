@@ -24,8 +24,8 @@ public class Vehicle {
     }
 
     public void stop(){
-
         System.out.println("stop method called - The vehicle is stopped");
+        this.currentSpeed = 0;
     }
 
     public String getName() {
