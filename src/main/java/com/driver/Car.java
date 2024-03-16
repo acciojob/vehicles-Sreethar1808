@@ -38,4 +38,24 @@ public class Car extends Vehicle {
     {
         return this.currentGear;
     }
+    // In Car class
+    public int getGears() {
+        return this.gears;
+    }
+
+    public int getWheels() {
+        return this.wheels;
+    }
+
+    public boolean isManual() {
+        return this.isManual;
+    }
+
+    public String getType() {
+        return this.type;
+    }
+
+    public int getSeats() {
+        return this.seats;
+    }
 }
