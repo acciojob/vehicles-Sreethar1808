@@ -8,7 +8,9 @@ public class Main {
         mercedes.accelerate(-60);
         Vehicle v1 = new Vehicle("Sreethar");
         Car c1 = new Car("sree", 4, 4, 5,true,"SUV",7);
-        Boat b1 = new Boat();
+        c1.stop();
+        c1.steer(40);
+        Boat b1 = new Boat("boat",5);
         b1.getVehicleName();
         b1.getVehicleCapacity();
     }
