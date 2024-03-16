@@ -41,6 +41,9 @@ public class F1 extends Car {
             changeSpeed(newSpeed, getCurrentDirection());
         }
     }
+    public int getCurrentDirection() {
+        return super.getCurrentDirection();
+    }
     public String getName() {
         return getName1();
     }
