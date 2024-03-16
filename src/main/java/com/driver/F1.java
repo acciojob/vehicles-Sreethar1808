@@ -41,6 +41,17 @@ public class F1 extends Car {
             changeSpeed(newSpeed, getCurrentDirection());
         }
     }
+    public String getName() {
+        return getName1();
+    }
+
+    public int getCurrentSpeed() {
+        return getcurrentSpeed1();
+    }
+
+    public int getCurrentGear() {
+        return getcurrentGear1();
+    }
 
 
 }
